@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["gas-types-detailed"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    //lib added @ 9-7-23. delete if problem occurs
+    "lib": [
+      "ES5",
+      "ES2015",
+      "DOM",
+      "ScriptHost"
+    ]
+  }
+}
